@@ -52,7 +52,11 @@ body {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
+<<<<<<< HEAD
     width: 270px;
+=======
+    width: 260px;
+>>>>>>> 2d43ae0c6770a6fbd79dd7994f532a08f69ad13b
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     text-align: left;
@@ -75,10 +79,18 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  @media only screen and (max-device-width: 1000px) {
-    .parallax {
-      background-attachment: scroll;
-    }
+  .parallax {
+    /* The image used */
+    background-image: url('bg.jpg');
+    transform: none !important;
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .caption {
@@ -101,7 +113,7 @@ body {
     background-color: transparent
     color: rgb(255, 255, 255);
     padding: 18px;
-    font-size: 60px;
+    font-size: 80px;
     
     
     font-family: "Dancing Script";
@@ -114,7 +126,10 @@ body {
   .parallax {
     /* The image used */
     background-image: url('bg.jpg');
-  
+
+    -ms-transform: preserve-3d;
+    -webkit-transform: preserve-3d;
+    transform: preserve-3d
     /* Full height */
     height: 100%; 
   opacity: 65%;
@@ -132,6 +147,13 @@ body {
     margin-bottom: 20px;
 }
 
-.sentence-home{
-  font-size: 20px;
+body{
+ 
+	height: 100%;
+}
+
+.page-container {
+    -ms-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
