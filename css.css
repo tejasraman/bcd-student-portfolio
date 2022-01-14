@@ -78,7 +78,7 @@ body {
   .parallax {
     /* The image used */
     background-image: url('bg.jpg');
-  
+    transform: none !important;
     /* Full height */
     height: 100%; 
   
@@ -122,7 +122,11 @@ body {
   .parallax {
     /* The image used */
     background-image: url('bg.jpg');
-  
+  	perspective: 1px;
+	-webkit-perspective: 1px;
+    -ms-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
     /* Full height */
     height: 100%; 
   opacity: 65%;
@@ -141,13 +145,7 @@ body {
 }
 
 body{
-    	overflow-x: hidden;
-	overflow-y: auto;
-	perspective: 1px;
-	-webkit-perspective: 1px;
-    -ms-transform: translate3d(0, 0, 0);
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+ 
 	height: 100%;
 }
 
