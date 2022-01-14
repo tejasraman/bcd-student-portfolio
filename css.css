@@ -52,10 +52,11 @@ body {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    width: 240px;
+    width: 270px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     text-align: left;
+    border-radius: 20px;
   }
   
   
@@ -74,18 +75,10 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .parallax {
-    /* The image used */
-    background-image: url('bg.jpg');
-  
-    /* Full height */
-    height: 100%; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  @media only screen and (max-device-width: 1000px) {
+    .parallax {
+      background-attachment: scroll;
+    }
   }
 
   .caption {
@@ -137,4 +130,8 @@ body {
 
   li:not(:last-child) {
     margin-bottom: 20px;
+}
+
+.sentence-home{
+  font-size: 20px;
 }
