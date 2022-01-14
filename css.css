@@ -52,11 +52,7 @@ body {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-<<<<<<< HEAD
-    width: 270px;
-=======
     width: 260px;
->>>>>>> 2d43ae0c6770a6fbd79dd7994f532a08f69ad13b
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     text-align: left;
