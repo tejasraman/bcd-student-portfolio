@@ -44,7 +44,7 @@ body {
   
 
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #0082FF;
     border-radius: 30px;
   }
   
@@ -52,11 +52,12 @@ body {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    width: 260px;
+    width: 250px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     text-align: left;
     border-radius: 20px;
+    padding: 0px !important;
   }
   
   
@@ -69,7 +70,7 @@ body {
   }
   
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #c2c2c2;
   }
   
   .dropdown:hover .dropdown-content {
@@ -102,11 +103,11 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 50%;
  
     display: flex;
-      filter: blur(3px);
-    -webkit-filter: blur(3px);
+      filter: blur(2px);
+    -webkit-filter: blur(2Spx);
   }
 
   .caption {
@@ -154,6 +155,26 @@ body {
   .parallax {
     /* The image used */
     background-image: url('bg.jpg');
+
+    -ms-transform: preserve-3d;
+    -webkit-transform: preserve-3d;
+    transform: preserve-3d;
+    /* Full height */
+    height: 100%; 
+  opacity: 65%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+      filter: blur(6px);
+    -webkit-filter: blur(6px);
+  }
+
+  .parallaxsci {
+    /* The image used */
+    background-image: url('scilab.jpg');
 
     -ms-transform: preserve-3d;
     -webkit-transform: preserve-3d;
