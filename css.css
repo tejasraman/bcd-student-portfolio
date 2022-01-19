@@ -6,6 +6,9 @@ body {
  h1{
    font-family: "Poppins" !important;
  } 
+ p{
+   font-size: large;
+ }
   .navbar {
 
     background-color: #333;
@@ -148,6 +151,17 @@ body {
     font-family: "Dancing Script";
   }
 
+  .caption span.bordertx {
+    background-color: transparent;
+    color: #000000;
+    padding: 18px;
+    font-size: 60px;
+    line-height: 90px;
+    background-color: #f1f1f1;
+    
+    
+    font-family: "Dancing Script";
+  }
   body, html {
     height: 100%;
   }
