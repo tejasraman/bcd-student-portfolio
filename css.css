@@ -81,7 +81,7 @@ body {
   }
   .parallax {
     /* The image used */
-    background-image: url('bg.jpg');
+    background-image: url('assets/bg.jpg');
     transform: none !important;
     /* Full height */
     height: 100%; 
@@ -94,7 +94,7 @@ body {
   }
 
   .parallaxtx {
-    background-image: url('IB-lp.png');
+    background-image: url('assets/IB-lp.png');
 
     -ms-transform: preserve-3d;
     -webkit-transform: preserve-3d;
@@ -168,7 +168,7 @@ body {
   
   .parallax {
     /* The image used */
-    background-image: url('bg.jpg');
+    background-image: url('assets/bg.jpg');
 
     -ms-transform: preserve-3d;
     -webkit-transform: preserve-3d;
@@ -188,7 +188,7 @@ body {
 
   .parallaxsci {
     /* The image used */
-    background-image: url('scilab.jpg');
+    background-image: url('assets/scilab.jpg');
 
     -ms-transform: preserve-3d;
     -webkit-transform: preserve-3d;
