@@ -130,3 +130,55 @@
       filter: blur(6px);
     -webkit-filter: blur(6px);
   }
+
+/* Captions */
+
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  .caption span.borderx {
+    background-color: transparent
+    color: rgb(255, 255, 255);
+    padding: 18px;
+    font-size: 80px;
+    
+    
+    font-family: "Dancing Script";
+  }
+
+  .caption span.borderxx {
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 18px;
+    font-size: 60px;
+    line-height: 90px;
+    background-color: #111;
+    
+    
+    font-family: "Dancing Script";
+  }
+
+  .caption span.bordertx {
+    background-color: transparent;
+    color: #000000;
+    padding: 18px;
+    font-size: 60px;
+    line-height: 90px;
+    background-color: #f1f1f1;
+    
+    
+    font-family: "Dancing Script";
+  }

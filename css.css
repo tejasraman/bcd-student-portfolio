@@ -79,144 +79,39 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .parallax {
-    /* The image used */
-    background-image: url('assets/bg.jpg');
-    transform: none !important;
-    /* Full height */
-    height: 100%; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .parallaxtx {
-    background-image: url('assets/IB-lp.png');
-
-    -ms-transform: preserve-3d;
-    -webkit-transform: preserve-3d;
-    transform: preserve-3d;
-    /* Full height */
-    height: 100%; 
-  opacity: 85%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 50%;
  
-    display: flex;
-      filter: blur(2px);
-    -webkit-filter: blur(2Spx);
-  }
 
-  .caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-  }
-
-  .caption span.border {
-    background-color: #111;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-  }
-  .caption span.borderx {
-    background-color: transparent
-    color: rgb(255, 255, 255);
-    padding: 18px;
-    font-size: 80px;
-    
-    
-    font-family: "Dancing Script";
-  }
-
-  .caption span.borderxx {
-    background-color: transparent;
-    color: #FFFFFF;
-    padding: 18px;
-    font-size: 60px;
-    line-height: 90px;
-    background-color: #111;
-    
-    
-    font-family: "Dancing Script";
-  }
-
-  .caption span.bordertx {
-    background-color: transparent;
-    color: #000000;
-    padding: 18px;
-    font-size: 60px;
-    line-height: 90px;
-    background-color: #f1f1f1;
-    
-    
-    font-family: "Dancing Script";
-  }
   body, html {
     height: 100%;
   }
-  
-  .parallax {
-    /* The image used */
-    background-image: url('assets/bg.jpg');
 
-    -ms-transform: preserve-3d;
-    -webkit-transform: preserve-3d;
-    transform: preserve-3d;
-    /* Full height */
-    height: 100%; 
-  opacity: 65%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-      filter: blur(6px);
-    -webkit-filter: blur(6px);
-  }
 
-  .parallaxsci {
-    /* The image used */
-    background-image: url('assets/scilab.jpg');
-
-    -ms-transform: preserve-3d;
-    -webkit-transform: preserve-3d;
-    transform: preserve-3d;
-    /* Full height */
-    height: 100%; 
-  opacity: 65%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-      filter: blur(6px);
-    -webkit-filter: blur(6px);
-  }
-
-  li:not(:last-child) {
-    margin-bottom: 20px;
-}
-
-body{
- 
-	height: 100%;
-}
 
 .page-container {
     -ms-transform: translate3d(0, 0, 0);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+
+.columnone {
+  flex: 68%;
+  padding: 10px;
+
+}
+
+  .columntwo {
+    flex: 30%;
+    padding: 10px;
+
+  }
