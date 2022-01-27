@@ -109,13 +109,11 @@ body {
   padding: 10px;
 
 }
-
-  .columntwo {
+.columntwo {
     flex: 30%;
     padding: 10px;
-
-  }
+}
   li{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px
   }
