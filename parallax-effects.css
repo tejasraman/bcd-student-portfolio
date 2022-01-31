@@ -202,3 +202,23 @@
       filter: blur(6px);
     -webkit-filter: blur(6px);
   }
+
+  .parallaxll {
+    /* The image used */
+    background-image: url('assets/lang-lit.jpg');
+
+    -ms-transform: preserve-3d;
+    -webkit-transform: preserve-3d;
+    transform: preserve-3d;
+    /* Full height */
+    height: 100%; 
+  opacity: 65%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+      filter: blur(6px);
+    -webkit-filter: blur(6px);
+  }
