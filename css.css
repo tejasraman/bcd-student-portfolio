@@ -144,3 +144,8 @@ ul{
    vertical-align: bottom;
    font-size: 20px !important;
 }
+
+a.active{
+  background: linear-gradient(to right, #11998e, #38ef7d);
+  border-radius: 30px;
+}
