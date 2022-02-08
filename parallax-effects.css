@@ -142,6 +142,15 @@
     color: #000;
   }
 
+  .captionx {
+    position: absolute;
+    left: 0;
+    top: 350%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+
   .caption span.border {
     background-color: #111;
     color: #fff;
@@ -305,6 +314,45 @@
   .parallaxis {
     /* The image used */
     background-image: url('assets/Background.png');
+
+    -ms-transform: preserve-3d;
+    -webkit-transform: preserve-3d;
+    transform: preserve-3d;
+    /* Full height */
+    height: 100%; 
+  opacity: 65%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+      filter: blur(6px);
+    -webkit-filter: blur(6px);
+  }
+  .parallaxpe {
+    /* The image used */
+    background-image: url('assets/PE.jpg');
+
+    -ms-transform: preserve-3d;
+    -webkit-transform: preserve-3d;
+    transform: preserve-3d;
+    /* Full height */
+    height: 100%; 
+  opacity: 65%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+      filter: blur(6px);
+    -webkit-filter: blur(6px);
+  }
+
+  .parallaxhl {
+    /* The image used */
+    background-image: url('assets/Health.jpg');
 
     -ms-transform: preserve-3d;
     -webkit-transform: preserve-3d;
