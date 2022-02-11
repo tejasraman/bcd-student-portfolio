@@ -119,6 +119,12 @@ backdrop-filter: blur(5px);
   padding: 10px;
 
 }
+
+.columnart {
+  flex: 33%;
+  padding: 10px;
+
+}
 .columntwo {
     flex: 30%;
     padding: 10px;
