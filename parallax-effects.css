@@ -14,6 +14,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden; position: relative;
+	overflow-y: auto;
+	perspective: 1px;
+	-webkit-perspective: 1px;
     display: flex;
       filter: blur(6px);
     -webkit-filter: blur(6px);;
@@ -85,6 +89,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden; position: relative;
+	overflow-y: auto;
+	perspective: 1px;
+	-webkit-perspective: 1px;
     display: flex;
       filter: blur(6px);
     -webkit-filter: blur(6px);
@@ -97,6 +105,10 @@
     -ms-transform: preserve-3d;
     -webkit-transform: preserve-3d;
     transform: preserve-3d;
+    overflow-x: hidden; position: relative;
+	overflow-y: auto;
+	perspective: 1px;
+	-webkit-perspective: 1px;
     /* Full height */
     height: 100%; 
   opacity: 65%;
@@ -117,6 +129,10 @@
     -ms-transform: preserve-3d;
     -webkit-transform: preserve-3d;
     transform: preserve-3d;
+    overflow-x: hidden; position: relative;
+	overflow-y: auto;
+	perspective: 1px;
+	-webkit-perspective: 1px;
     /* Full height */
     height: 100%; 
   opacity: 65%;
@@ -199,6 +215,10 @@
     -webkit-transform: preserve-3d;
     transform: preserve-3d;
     /* Full height */
+    overflow-x: hidden; position: relative;
+	overflow-y: auto;
+	perspective: 1px;
+	-webkit-perspective: 1px;
     height: 100%; 
   opacity: 65%;
     /* Create the parallax scrolling effect */
@@ -221,6 +241,10 @@
     /* Full height */
     height: 100%; 
   opacity: 65%;
+  overflow-x: hidden; position: relative;
+	overflow-y: auto;
+	perspective: 1px;
+	-webkit-perspective: 1px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -241,6 +265,10 @@
     /* Full height */
     height: 100%; 
   opacity: 65%;
+  overflow-x: hidden; position: relative;
+	overflow-y: auto;
+	perspective: 1px;
+	-webkit-perspective: 1px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -259,6 +287,10 @@
     -webkit-transform: preserve-3d;
     transform: preserve-3d;
     /* Full height */
+    overflow-x: hidden; position: relative;
+	overflow-y: auto;
+	perspective: 1px;
+	-webkit-perspective: 1px;
     height: 100%; 
   opacity: 65%;
     /* Create the parallax scrolling effect */
@@ -278,6 +310,10 @@
     -webkit-transform: preserve-3d;
     transform: preserve-3d;
     /* Full height */
+    overflow-x: hidden; position: relative;
+	overflow-y: auto;
+	perspective: 1px;
+	-webkit-perspective: 1px;
     height: 100%; 
   opacity: 65%;
     /* Create the parallax scrolling effect */
@@ -300,6 +336,10 @@
     /* Full height */
     height: 100%; 
   opacity: 65%;
+  overflow-x: hidden; position: relative;
+	overflow-y: auto;
+	perspective: 1px;
+	-webkit-perspective: 1px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -318,6 +358,10 @@
     -webkit-transform: preserve-3d;
     transform: preserve-3d;
     /* Full height */
+    overflow-x: hidden; position: relative;
+	overflow-y: auto;
+	perspective: 1px;
+	-webkit-perspective: 1px;
     height: 100%; 
   opacity: 65%;
     /* Create the parallax scrolling effect */
@@ -335,6 +379,10 @@
 
     -ms-transform: preserve-3d;
     -webkit-transform: preserve-3d;
+    overflow-x: hidden; position: relative;
+	overflow-y: auto;
+	perspective: 1px;
+	-webkit-perspective: 1px;
     transform: preserve-3d;
     /* Full height */
     height: 100%; 
@@ -357,6 +405,10 @@
     -webkit-transform: preserve-3d;
     transform: preserve-3d;
     /* Full height */
+    overflow-x: hidden; position: relative;
+	overflow-y: auto;
+	perspective: 1px;
+	-webkit-perspective: 1px;
     height: 100%; 
   opacity: 65%;
     /* Create the parallax scrolling effect */
@@ -375,7 +427,10 @@
 
     -ms-transform: preserve-3d;
     -webkit-transform: preserve-3d;
-    transform: preserve-3d;
+    transform: preserve-3d;overflow-x: hidden; position: relative;
+    overflow-y: auto;
+    perspective: 1px;
+    -webkit-perspective: 1px;
     /* Full height */
     height: 100%; 
   opacity: 65%;
@@ -396,6 +451,10 @@
     -ms-transform: preserve-3d;
     -webkit-transform: preserve-3d;
     transform: preserve-3d;
+    overflow-x: hidden; position: relative;
+	overflow-y: auto;
+	perspective: 1px;
+	-webkit-perspective: 1px;
     /* Full height */
     height: 100%; 
   opacity: 65%;
