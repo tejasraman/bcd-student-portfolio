@@ -1,113 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    font-family: "Nunito"
-  }
- h1{
-   font-family: "Poppins" !important;
- } 
- p{
-   font-size: 20px;
- }
-  .navbar {
-
-    background-color: #333;
-    border-radius: 30px;
-    top: 20px;
-    position: absolute;
-   min-width: 95%;
-   left: 2.5%;
-
-
-  }
-  
-  .navbar a {
-    font-family: "Nunito";
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  .dropdown .dropbtn {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #0082FF;
-    border-radius: 30px;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    width: 250px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    text-align: left;
-    border-radius: 20px;
-    padding: 0px !important;
-    opacity: 80%;
-    backdrop-filter: blur(8px) !important;
-   ;
-    
-  }
-
-  .dropdown-content:before,
-.main-navigation ul.sub-menu:before {
-backdrop-filter: blur(5px);
+  font-family: "Nunito"
 }
-  
-  
-  .dropdown-content a {
- 
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-   
-  
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #c2c2c2;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
- 
 
-  body, html {
-    height: 100%;
-  }
+h1 {
+  font-family: "Poppins" !important;
+}
 
+p {
+  font-size: 20px;
+}
 
+body {
+  background-attachment: fixed;
+}
 
-.page-container {
-    -ms-transform: translate3d(0, 0, 0);
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+.navbar {
+  overflow: hidden;
+  border-radius: 30px;
+  background-color: rgba(0,0,0,0.5);
 }
 
 
-
-* {
-  box-sizing: border-box;
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #358ccb;
+  border-radius: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(255,255,255,0.8);
+  backdrop-filter: blur(8px);
+  min-width: 160px;
+  border-radius: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 60px;
+  margin-right: 17px;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body,
+html {
+  height: 100%;
+}
+
 
 .row {
   display: flex;
@@ -125,9 +106,10 @@ backdrop-filter: blur(5px);
   padding: 10px;
 
 }
+
 .columntwo {
-    flex: 30%;
-    padding: 10px;
+  flex: 30%;
+  padding: 10px;
 }
 
 .columnx {
@@ -137,22 +119,37 @@ backdrop-filter: blur(5px);
 }
 
 
-  li{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
-  }
-
-ul{
- margin-left: 15px;
- padding: 0;
+li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
+
+ul {
+  margin-left: 15px;
+  padding: 0;
+}
+
 .inline-icon {
-   vertical-align: bottom;
-   font-size: 20px !important;
+  vertical-align: bottom;
+  font-size: 20px !important;
 }
 
-a.active{
+a.active {
   background: linear-gradient(to right, #11998e, #38ef7d);
   border-radius: 30px;
+}
+
+.box{
+  height: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.caption{
+  font-family: 'Dancing Script';
+  font-size: 7.5rem;
+  background-color: rgba(255,255,255,0.7);
+  backdrop-filter: blur(6px);
+  text-align: center;
 }
