@@ -32,6 +32,7 @@ body {
   text-decoration: none;
 }
 
+
 .dropdown {
   float: left;
   overflow: hidden;
@@ -177,6 +178,24 @@ a.active {
   -webkit-text-fill-color: transparent;
 }
 
+.cback-lt{
+  background-color: rgba(255,255,255,0.7);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  text-align: center !important;
+  display: inline-block;
+  padding: 1.2%;
+  border-radius: 20px;
+}
+
+.ctext-lt{
+  font-family: 'Dancing Script', cursive !important;
+  font-size: 5rem;
+  background: -webkit-linear-gradient(90deg, rgb(117, 112, 255) 0%, rgb(56, 24, 183) 50%, rgb(5, 62, 196) 100%);   
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .text-field{
   width: 95% !important;
   background-color: rgba(0,0,0,0.7);
@@ -186,4 +205,15 @@ a.active {
   font-size: 1.225rem;
   border-radius: 20px;
   color: #ffffff;
+}
+
+.text-field{
+  width: 95% !important;
+  background-color: rgba(255,255,255,0.7);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 1.2%;
+  font-size: 1.225rem;
+  border-radius: 20px;
+  color: #000000;
 }
