@@ -57,7 +57,7 @@
                 <li><a href="design.htm">Design</a></li>
                 <li><a href="science.htm">Science</a></li>
                 <li><a href="spanish.htm">Spanish</a></li>
-                <li><a href="physed.htm">PE and Health</a></li>
+                <li><a href="physed.htm">Physical Education</a></li>
                 <li><a href="lang-lit.htm">Language & Literature</a></li>
               </ul>
             </div>
@@ -95,14 +95,82 @@
         challenged me is…
         <br />
         <br />
-        Here is a link to my final video
-        <br />
-        <br />
         The things I think I did well in this video are…
         <br />
         <br />
         My grade for this video is… because…
       </div>
     </div>
+    <div class="halfpage"></div>
+    <div class="text-field">
+      <h1> Work Samples:
+      </h1> <br>
+      <!-- Importing Video.js -->
+      <link href="//vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
+      <script src="//vjs.zencdn.net/7.10.2/video.min.js"></script>
+
+      <style>
+        .video-js {
+          font-size: 10px;
+          color: #000000;
+        }
+
+
+        .vjs-default-skin .vjs-big-play-button {
+          font-size: 2.7em;
+          line-height: 2em;
+          height: 2em;
+          width: 2em;
+          border-radius: 100%;
+          left: 50%;
+          top: 50%;
+          margin-left: -1em;
+          margin-top: -1em;
+        }
+
+        .video-js .vjs-control-bar,
+        .video-js .vjs-big-play-button,
+        .video-js .vjs-menu-button .vjs-menu-content {
+          background-color: #ffffff;
+          background-color: rgba(255, 255, 255, 0.9);
+        }
+
+
+        .video-js .vjs-slider {
+          background-color: #e6e6e6;
+          background-color: rgba(230, 230, 230, 0.9);
+        }
+
+
+        .video-js .vjs-volume-level,
+        .video-js .vjs-play-progress,
+        .video-js .vjs-slider-bar {
+          background: #009CFF;
+        }
+
+        .video-js .vjs-load-progress {
+          background: ligthen(#e6e6e6, 80%);
+          background: rgba(230, 230, 230, 0.8);
+        }
+
+
+        .video-js .vjs-load-progress div {
+          background: ligthen(#e6e6e6, 80%);
+          background: rgba(230, 230, 230, 0.9);
+        }
+
+        .video-js:hover .vjs-big-play-button {
+          background-color: rgba(255, 255, 255, 0.95);
+          border-color: #ffffff;
+        }
+      </style>
+
+        <div>
+          <center>
+            <video playsinline controls class="video-js vjs-default-skin" data-setup='{"fluid": true}'>
+              <source src="assets/TED Talk.mp4" type="video/mp4" />
+            </video>
+          </center>
+        </div>
   </body>
 </html>
